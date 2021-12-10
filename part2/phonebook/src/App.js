@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import AddForm from './AddForm';
-import Searchbox from './SearchBox';
-import ListNames from './ListNames';
+import AddForm from './components/AddForm';
+import Searchbox from './components/SearchBox';
+import ListNames from './components/ListNames';
 
 const App = () => {
   const [persons, setPersons] = useState([
